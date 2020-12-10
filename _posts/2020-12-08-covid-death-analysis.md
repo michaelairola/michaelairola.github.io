@@ -119,7 +119,7 @@ This brings up some interesting findings. First thing I notice, is that excess d
 
 2. A large portion of this age group is in some sort of educational system. It may be possible that school environments (i.e. competition from classmates, bullying, etc.) contribute to far more suicides per year than its zoom-oriented counter part. 
 
-For either of these assumptions, more data needs to be analyzed. Suicide rates and car accident fatality rates for 0-26 year olds would be helpful to look at. It would also be nice to know how affective zoom-learning is at improving the health of our youth, and whether that improved bump is worth the (eleged) lack of knowledge gained.
+For either of these assumptions, more data needs to be analyzed. Suicide rates and car accident fatality rates for 0-26 year olds would be helpful to look at. It would also be nice to know how affective zoom-learning is at improving the health of our youth, and whether that improved bump is worth the (alleged) lack of knowledge gained.
 
 The most interesting thing I see from this chart though, is the skew towards younger ages compared to the initial COVID-19 death chart. It appears that there are a lot of excess deaths that are not in the same age group as the COVID-19 deaths. 
 
@@ -151,6 +151,8 @@ This chart is wild. Why are there so many excess life-years lost for ages 25-64?
 I really only have one guess for this; Pandemic-halting ordinances have contributed to a stagnating economy and a lack of social outlets for these demographics, increasing total amount of suicides and overdoses. Look [here](https://www.ama-assn.org/system/files/2020-12/issue-brief-increases-in-opioid-related-overdose.pdf), [here](https://www.ehstoday.com/health/media-gallery/21121766/cdc-reports-lower-drug-overdose-rates-while-suicides-climb-photo-gallery), [here](https://www.liebertpub.com/doi/10.1089/POP.2020.0230), and [here](https://www.cdc.gov/coronavirus/2019-ncov/cdcresponse/accomplishments/excess-death-data.html) for some interesting reads.
 
 Regardless of reason, there were still ***86 thousand*** excess deaths this year not directly tied to COVID-19, and most of these deaths skew young. How many life-years were lost because of pandemic-halting ordinances? Was it worth it? It's really hard to tell. But judging by these numbers, It's a lot closer than most people would believe. 
+
+This brings us to the third trolley problem. On the first set of tracks, we have the elderly, the auto-immune and the people with pre-existing conditions. On the other set of tracks, we have those struggling economically and those about to commit suicide. I'm not sure which choice is right; all I know is we pulled the lever.
 
 ### **superscripts:** ###
 1. Many people answer the trolley problem by refusing to pull the lever regardless of the two choices given. In this school of thought, doing nothing keeps your hands clean, whereas pulling the lever kills whomever is on the receiving side of the tracks. To avoid this anti-interventionist loophole, assume that doing nothing is a choice; In other words, your hands are always going to be dirty and our goal is to find the least-dirty solution.
