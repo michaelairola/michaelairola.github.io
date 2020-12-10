@@ -8,7 +8,7 @@ Ever heard of the [Trolley problems](https://en.wikipedia.org/wiki/Trolley_probl
 
 > ***There is a runaway trolley barrelling down the railway tracks. Ahead on the tracks, there are ten people tied up and unable to move. The trolley is headed straight for them. Conveniently, you are standing some distance off in the train yard, next to a lever. If you pull the lever, the trolley will switch to a different set of tracks, and will avoid the ten people. However, you notice there is one person tied up and unable to move on this side of the tracks. Do you pull the lever?***
 
-Philosophers love this hypothetical scenario. Choosing who lives and dies seems to be a difficult problem for humans to solve; We are not God and we are terrible at playing the part<sup>1</sup>. This problem forces us to compare **qualities of life**, which turns out to be a hard thing for humans to do without going insane.
+Philosophers love this hypothetical scenario. Choosing who lives and dies seems to be a difficult problem for humans to solve; We are not God and we are terrible at playing the part<sup>[1](#caveats)</sup>. This problem forces us to compare **qualities of life**, which turns out to be a hard thing for humans to do without going insane.
 
 For the sake of our sanity, we need a way to assess the quality of a single life. For now, because we have no information on who these people are or what their quality of life is, let's assume that all lives are equal. Given this assumption (and the assumption that 10 is greater than 1), the life-optimal choice would be to pull the lever, right?
 
@@ -24,9 +24,9 @@ $$\sum_{a=0}^{Max Age} f(a) * E(a) $$
 
 Using this formula, and the average of male and female life expectancies given from [this](https://www.ssa.gov/oact/STATS/table4c6.html) chart, we can solve for the second trolley problem! Since $$f(90) = 10$$ and $$E(90) = 4.415$$, expected life-years for the group of ten would be $$4.415 * 10 = 44.15$$ life-years. On the other side of the tracks, $$E(0) = 78.465$$ life-years. In other words, the group of ten is worth around 44 years of life, whereas the baby is worth about 78. 
 
-Now obviously, framing quality of life as a function of life-years isn't a perfect measurement<sup>2</sup>. This is simply the continuation of ideas expressed earlier; Instead of assuming every **life** lived is equivalent, we are now assuming that every **year** lived is equivalent. Ethically, it's hard to decide to kill 10 old people to save a baby, but logistically this decision has pretty good standing. 
+Now obviously, framing quality of life as a function of life-years isn't a perfect measurement<sup>[2](#caveats)</sup>. This is simply the continuation of ideas expressed earlier; Instead of assuming every **life** lived is equivalent, we are now assuming that every **year** lived is equivalent. Ethically, it's hard to decide to kill 10 old people to save a baby, but logistically this decision has pretty good standing. 
 
-This thought experiment got me thinking about COVID-19's death count. Although there are plenty of dashboards and metric counts online about COVID-19, I couldn't find any that measured life-years as a function of age. So I decided to do a little snooping around, and found some good insights in the [CDC's Public Use dataset](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf). If you haven't checked out the CDC's resources on this subject, I would suggest you follow the link. Very neat interface for creating your own queries and data filters<sup>3</sup>.
+This thought experiment got me thinking about COVID-19's death count. Although there are plenty of dashboards and metric counts online about COVID-19, I couldn't find any that measured life-years as a function of age. So I decided to do a little snooping around, and found some good insights in the [CDC's Public Use dataset](https://data.cdc.gov/Case-Surveillance/COVID-19-Case-Surveillance-Public-Use-Data/vbim-akqf). If you haven't checked out the CDC's resources on this subject, I would suggest you follow the link. Very neat interface for creating your own queries and data filters<sup>[3](#caveats)</sup>.
 
 Here is a chart plotting age groups as a relationship to Covid-19 deaths.
 ```chart
@@ -53,7 +53,7 @@ Here is a chart plotting age groups as a relationship to Covid-19 deaths.
 ```
 As you can see, this disease is disproportionally killing off the elderly. It makes sense why young people tend to be less covid-concious. 
 
-However, this is slightly confusing to me when I think about the people I know under the age of 80 that are terrified of COVID-19. What is also confusing is how little my 90-year-old grandma cares about COVID-19 precautions and shelter in place ordinances<sup>4</sup>.  
+However, this is slightly confusing to me when I think about the people I know under the age of 80 that are terrified of COVID-19. What is also confusing is how little my 90-year-old grandma cares about COVID-19 precautions and shelter in place ordinances<sup>[4](#caveats)</sup>.  
 
 Lets take a look at the relationship between age groups and life-years lost...
 ```chart
@@ -88,7 +88,7 @@ You read that correctly. ***That's 86,000 excess deaths this year, not directly 
 
 Excess deaths includes all externalities brought on by 2020. So yes, this includes shelter-in-place ordinances, travel restrictions and essential-only-work orders as a conglomeration of factors that may have contributed to this large number of excess deaths. 
 
-To understand the root causes of the excess deaths, it would be helpful to see it's relationship with age. I decided to look into the CDC's [Weekly Deaths By Jurisdiction and age group](https://data.cdc.gov/NCHS/Weekly-counts-of-deaths-by-jurisdiction-and-age-gr/y5bj-9g5w) dataset. In order to find the average death counts by age, I took the average death counts of the past 4 years (2015 - 2019) per age group. This was then subtracted from the death counts by age group in 2020 to get a solid estimate of excess deaths<sup>5</sup>.
+To understand the root causes of the excess deaths, it would be helpful to see it's relationship with age. I decided to look into the CDC's [Weekly Deaths By Jurisdiction and age group](https://data.cdc.gov/NCHS/Weekly-counts-of-deaths-by-jurisdiction-and-age-gr/y5bj-9g5w) dataset. In order to find the average death counts by age, I took the average death counts of the past 4 years (2015 - 2019) per age group. This was then subtracted from the death counts by age group in 2020 to get a solid estimate of excess deaths<sup>[5](#caveats)</sup>.
 
 Here's what the relationship between age group and excess deaths looks like:
 ```chart
@@ -154,7 +154,7 @@ Regardless of reason, there were still ***86,000*** excess deaths this year not 
 
 This brings us to the third trolley problem. On the first set of tracks, we have the elderly, the auto-immune and the people with pre-existing conditions. On the other set of tracks, we have those struggling economically and those about to commit suicide. I'm not sure which choice is right; all I know is we pulled the lever.
 
-### **superscripts:** ###
+### **Caveats:** ###
 1. Many people answer the trolley problem by refusing to pull the lever regardless of the two choices given. In this school of thought, doing nothing keeps your hands clean, whereas pulling the lever kills whomever is on the receiving side of the tracks. To avoid this anti-interventionist loophole, assume that doing nothing is a choice; In other words, your hands are always going to be dirty and our goal is to find the least-dirty solution.
 2. What if we knew without a doubt that the baby was going to be a terrible, terrible human being? The quality of that life would be irredemable and should definitely be run over by a trolley, no questions asked. Yes, I am totally advocating for killing baby hitler here. It sounds bad, but this isn't an article about ethics. Let's just agree to avoid this rabbit-hole for the time being.
 3. As a small caveat, the CDC uses death certificates for measuring deaths within the U.S. which take at least a few weeks or so to be submitted and verified. Because of this, the datasets are typically a little behind other datasets (As of the 8th of December 2020, the CDC's estimate of total deaths in the U.S. is around 183 thousand, where as something like the New York Times database suggests the amount of deaths to be around 286 thousand). Obviously, the numbers are a little off, however for the purposes of this article the proportions of age-demographic vs. deaths should be the same for all datasets, and I encourage anyone out there willing to do so to replicate these metrics elsewhere.
