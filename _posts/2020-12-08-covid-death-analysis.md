@@ -10,7 +10,7 @@ Ever heard of the [Trolley problems](https://en.wikipedia.org/wiki/Trolley_probl
 
 Philosophers love this hypothetical scenario. Choosing who lives and dies seems to be a difficult problem for humans to solve; We are not God and we are terrible at playing the part<sup>1</sup>. This problem forces us to compare **qualities of life**, which turns out to be a hard thing for humans to do without going insane.
 
-For the sake of our sanity then, we need a way to assess the quality of a single life. For now, because we have no information on who these people are or what their quality of life is, let's assume that all lives are equal. Given this assumption (and the assumption that 10 is greater than 1), the life-optimal choice would be to pull the lever, right? 
+For the sake of our sanity, we need a way to assess the quality of a single life. For now, because we have no information on who these people are or what their quality of life is, let's assume that all lives are equal. Given this assumption (and the assumption that 10 is greater than 1), the life-optimal choice would be to pull the lever, right?
 
 This is a fair way to approach this problem, and barring any other significant information, it would be the best data-driven solution anyone could come up with. 
 
@@ -78,17 +78,17 @@ Lets take a look at the relationship between age groups and life-years lost...
   }
 }
 ```
-Wow, this makes a little more sense! Elderly populations are still losing a considerable amount of years of life, however it appears that the largest loss of life-years is occurring to people in the age range of 60-69 years olds. That is smack-dab in the middle of the Baby Boom era! No wonder politicians are pandering so extremely for safety precautions from COVID-19, a large portion of their demographic is losing more life-years than any other group.
+Wow, this makes a little more sense! Elderly populations are still losing a considerable amount of years of life, however it appears that the largest loss of life-years is occurring to people in the age range of 60-69 years olds. That is smack-dab in the middle of the Baby Boom era. No wonder politicians are pandering so extremely for safety precautions from COVID-19. A large portion of their demographic is losing more life-years than any other group.
 
 Are there any other ways to categorize the impact COVID-19 has had on our Society? Im glad you asked! One way is to compare the total deaths in 2020 to previous year death counts. This metric is called ***excess deaths***.
 
-A recent [CDC study](https://www.cdc.gov/mmwr/volumes/69/wr/mm6942e2.htm) found excess deaths in 2020 to be estimated at around 299 thousand. If we subtract the studies claimed COVID-19 death count (213 thousand), we get around 86 thousand excess deaths that were not directly linked to COVID-19.
+A recent [CDC study](https://www.cdc.gov/mmwr/volumes/69/wr/mm6942e2.htm) found excess deaths in 2020 to be estimated at around 299,000. If we subtract the studies claimed COVID-19 death count (213,000), we get around 86,000 excess deaths that were not directly linked to COVID-19.
 
-You read that correctly. ***That's 86,000 excess deaths this year, not directly tied to COVID-19!*** Sure, some of these deaths could be mis-reported COVID-19 cases, but how many? I'd say maybe thousands of mis-reported COVID-19 deaths as an upper bound. ***1 or 2 thousand is nowhere near 86 thousand***. Those numbers aren't even in the same ballpark. 
+You read that correctly. ***That's 86,000 excess deaths this year, not directly tied to COVID-19***. Sure, some of these deaths could be mis-reported COVID-19 cases, but how many? I'd say maybe thousands of mis-reported COVID-19 deaths as an upper bound. ***1,000 or 2,000 is nowhere near 86,000***. Those numbers aren't even in the same ballpark.
 
 Excess deaths includes all externalities brought on by 2020. So yes, this includes shelter-in-place ordinances, travel restrictions and essential-only-work orders as a conglomeration of factors that may have contributed to this large number of excess deaths. 
 
-To understand the root causes of the excess deaths, it would be nice to see it's relationship with age. I decided to look into the CDC's [Weekly Deaths By Jurisdiction and age group](https://data.cdc.gov/NCHS/Weekly-counts-of-deaths-by-jurisdiction-and-age-gr/y5bj-9g5w) dataset. In order to find the average death counts by age, I took the average death counts of the past 4 years (2015 - 2019) per age group. This was then subtracted from the death counts by age group in 2020 to get a solid estimate of excess deaths<sup>5</sup>.
+To understand the root causes of the excess deaths, it would be helpful to see it's relationship with age. I decided to look into the CDC's [Weekly Deaths By Jurisdiction and age group](https://data.cdc.gov/NCHS/Weekly-counts-of-deaths-by-jurisdiction-and-age-gr/y5bj-9g5w) dataset. In order to find the average death counts by age, I took the average death counts of the past 4 years (2015 - 2019) per age group. This was then subtracted from the death counts by age group in 2020 to get a solid estimate of excess deaths<sup>5</sup>.
 
 Here's what the relationship between age group and excess deaths looks like:
 ```chart
@@ -113,7 +113,7 @@ Here's what the relationship between age group and excess deaths looks like:
   }
 }
 ```
-This brings up some interesting findings. First thing I notice, is that excess deaths for the 0-24 age group are actually negative! How can this be? I have few guesses:
+This brings up some interesting findings. The first thing I noticed is that excess deaths for the 0-24 age group are actually negative! How can this be? I have few guesses:
 
 1. This age group tends to be the most risk-loving group. Since both the public and private sectors of society have been implementing pandemic-halting strategies, there are way less chances to be risky. A [UC Davis study](https://www.ucdavis.edu/news/california-covid-19-traffic-report-finds-silver-lining/) found that fatal car accidents in 2020 have decreased by half, and just by looking at differences in car insurance prices with age groups, we can assume pretty safely that a lot of car accidents occur from these risk-loving teenagers. 
 
@@ -150,7 +150,7 @@ This chart is wild. Why are there so many excess life-years lost for ages 25-64?
 
 I really only have one guess for this; Pandemic-halting ordinances have contributed to a stagnating economy and a lack of social outlets for these demographics, increasing total amount of suicides and overdoses. Look [here](https://www.ama-assn.org/system/files/2020-12/issue-brief-increases-in-opioid-related-overdose.pdf), [here](https://www.ehstoday.com/health/media-gallery/21121766/cdc-reports-lower-drug-overdose-rates-while-suicides-climb-photo-gallery), [here](https://www.liebertpub.com/doi/10.1089/POP.2020.0230), and [here](https://www.cdc.gov/coronavirus/2019-ncov/cdcresponse/accomplishments/excess-death-data.html) for some interesting reads.
 
-Regardless of reason, there were still ***86 thousand*** excess deaths this year not directly tied to COVID-19, and most of these deaths skew young. How many life-years were lost because of pandemic-halting ordinances? Was it worth it? It's really hard to tell. But judging by these numbers, It's a lot closer than most people would believe. 
+Regardless of reason, there were still ***86,000*** excess deaths this year not directly tied to COVID-19, and most of these deaths skew young. How many life-years were lost because of pandemic-halting ordinances? Was it worth it? It's really hard to tell. But judging by these numbers, It's a lot closer than most people would believe. 
 
 This brings us to the third trolley problem. On the first set of tracks, we have the elderly, the auto-immune and the people with pre-existing conditions. On the other set of tracks, we have those struggling economically and those about to commit suicide. I'm not sure which choice is right; all I know is we pulled the lever.
 
