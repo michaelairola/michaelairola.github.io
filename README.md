@@ -2,4 +2,4 @@
 
 # Mike's Blog
 
-Written using (Jekyll)[https://jekyllrb.com/]
+Written using [Jekyll](https://jekyllrb.com/)
